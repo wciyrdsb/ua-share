@@ -14,12 +14,17 @@ const HeaderBar = styled.header`
 `;
 
 
-const Title = styled.span`
+const Title = styled.a`
   font-weight: 500;
   transition: color 300ms;
   text-decoration: none;
   user-select: none;
   color: #ffffff;
+  cursor: pointer;
+  
+  &:hover {
+    color: #d5d5d5;
+  }
 `;
 
 function Header() {

@@ -34,10 +34,10 @@ class ShareContainer extends Component {
             return (
 
                 <SuperContainer className={`defaultGrey ${this.props.className}`}>
-                    <RedirectButton name="Share on Twitter" logo="/logos/twitter.svg" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fwww.wciukraine.ca%2F&text=The%20%23WestmountCI%20community%20is%20looking%20to%20contribute%20to%20the%20Ukrainian%20people%27s%20ever-growing%20needs%20impacted%20by%20the%20current%20war.%20Please%20show%20how%20Westmount%20C.I.%20students%2C%20staff%2C%20and%20family%20can%20stand%20together%20for%20peace.%20Donate%20today.%20https%3A%2F%2Fwww.wciukraine.ca%2Fdonate%2F%20"/>
-                    <RedirectButton name="Share on Facebook" logo="/logos/facebook.svg" href="https://www.facebook.com/sharer/sharer.php?u=www.wciukraine.ca" />
-                    <RedirectButton name="Share on E-Mail" logo="/logos/email.svg" href="mailto:?body=The%20WestmountCI%20community%20is%20looking%20to%20contribute%20to%20the%20Ukrainian%20people%27s%20ever-growing%20needs%20impacted%20by%20the%20current%20war.%20Please%20show%20how%20Westmount%20C.I.%20students%2C%20staff%2C%20and%20family%20can%20stand%20together%20for%20peace.%20Donate%20today.%20https%3A%2F%2Fwww.wciukraine.ca%2Fdonate%2F&subject=Westmount%20C.I.%20Ukraine%20Fundraiser"/>
-                    <RedirectButton name="Share on WhatsApp" logo="/logos/whatsapp.svg" href="https://api.whatsapp.com/send/?phone&text=The%20WestmountCI%20community%20is%20looking%20to%20contribute%20to%20the%20Ukrainian%20people%27s%20ever-growing%20needs%20impacted%20by%20the%20current%20war.%20Please%20show%20how%20Westmount%20C.I.%20students%2C%20staff%2C%20and%20family%20can%20stand%20together%20for%20peace.%20Donate%20today.%20https%3A%2F%2Fwww.wciukraine.ca%2Fdonate%2F%20"/>
+                    <RedirectButton name="Share on Twitter" logo="/logos/twitter.svg" href="/twitter"/>
+                    <RedirectButton name="Share on Facebook" logo="/logos/facebook.svg" href="/facebook" />
+                    <RedirectButton name="Share on E-Mail" logo="/logos/email.svg" href="/email"/>
+                    <RedirectButton name="Share on WhatsApp" logo="/logos/whatsapp.svg" href="/whatsapp"/>
                 </SuperContainer>
             )
         } catch (e) {
